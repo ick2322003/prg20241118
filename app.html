@@ -28,7 +28,22 @@
             <input type="text">
         </div>
     </fieldset>
-    <input type="submit" value="送　　信">
+    <input type="submit" value="送　　信" onclick="ques()">
+
+    <script>
+        function ques(){
+            if(window.confirm("申し込みますか？")){
+        
+            }else{
+                send();
+            }    
+        }
+        
+            function send(){
+            alert("できませんでした")
+        }
+
+    </script>
       </form>
       <button onclick="location.href='./index.html'">もどる</button>
 
