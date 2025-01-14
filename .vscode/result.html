@@ -10,16 +10,15 @@
        <h1>この画面は３秒後にトップ画面に戻ります。</h1>
     
     <script>
-        function ques(){
-            if(window.confirm("申し込みますか？")){
-                alert("完了しました")
-                setTimeout(() => {
-                    location.href = "./index.html";
-                }, 3000); 
-            } 
-        }  
+    function submitfrom(){
+        window.location.href = "result.html";
+    }
 
-</Script>
+    </Script>
+<body>
+    <button onclick="submitfrom()">完了しました</button>
+</body>
+
 
  </form>
  <button onclick="location.href='./index.html'">もどる</button>
