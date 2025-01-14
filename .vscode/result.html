@@ -1,0 +1,30 @@
+<!DOCTYPE html> <html>
+<hyml lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>登録しました</title>
+
+     <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+       <h1>この画面は３秒後にトップ画面に戻ります。</h1>
+    
+    <script>
+        function ques(){
+            if(window.confirm("申し込みますか？")){
+                alert("完了しました")
+                setTimeout(() => {
+                    location.href = "./index.html";
+                }, 3000); 
+            } 
+        }  
+
+</Script>
+
+ </form>
+ <button onclick="location.href='./index.html'">もどる</button>
+
+ <h6>この天文台は存在しません</h6>
+ </body>
+
+</html>
